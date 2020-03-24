@@ -1,0 +1,119 @@
+body {
+    display: block;
+    font-size: 21px;
+    text-align: justify;
+    color: #220;
+    font-family: 'Times New Roman', serif;
+}
+h1{
+    font-size: 25px;
+    color: #222200;
+}
+h2{
+    font-size: 23px;
+    font-weight: 600;
+    color: #222200;
+}
+h3{
+    font-size: 21px;
+    font-weight: 600;
+    color: #222200;
+}
+header{
+    display: block;
+    max-height: 40px;
+    margin-bottom: 28px;
+    padding: 16px 0px;
+    border-bottom: 2px solid #544;
+}
+.container {
+    margin: 0 auto;
+    max-width: 43rem;
+    padding: 0px 32px;
+    line-height: 1.6em;
+}
+.post {
+    margin-bottom: 80px;
+}
+.blog-title {
+    float: left;
+    position: absolute;
+    top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(72, 72, 72);
+}
+.navlist {
+    text-align: right;
+}
+.navlist li {
+    display: inline;
+    list-style-type: none;
+    padding-left: 20px;
+    font-size: 18px;
+    }
+.nav-link:hover {
+    filter: drop-shadow(0 0 0.30rem rgb(113, 113, 113));
+}
+.nav-link {
+    color: #554444;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.post-data {
+    margin-top: 0px;
+    font-size: 17px;
+    font-style: italic;
+    color: #555;
+}
+.image1{
+    width: 570px;
+    height:auto;
+    margin: 0 auto;
+    display: block;
+}
+.image1-description{
+    background-color: lightgrey;
+    color: rgb(72, 72, 72);
+    margin-top:0;
+    width: 570px;
+    height: 60px;
+    margin: 0 auto; 
+    display: block;
+    text-align: center;
+    padding: 10px 0 5px 0;
+    line-height: 1.5;
+    font-size: 16px;
+
+}
+.corona-symptoms-list {
+    background-color: lightgray;
+    padding: 0px 10px 5px 10px;
+    margin: 0 auto;
+    width: 570px;
+}
+.wake-up-call-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.last-paragraph {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.useful-info-list {
+    background-color: lightgray;
+    padding: 2px 10px 5px 10px;
+    margin: 20px 10px 0 10px;    
+}
+.source-info-list {
+    text-align: right;
+    margin: 5px 0;
+    font-size: 16px;
+}
+#symptoms-source.source-info-list{
+    text-align: left;
+}
