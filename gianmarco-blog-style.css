@@ -55,6 +55,9 @@ header{
 .nav-link:hover {
     filter: drop-shadow(0 0 0.30rem rgb(113, 113, 113));
 }
+.nav-link.active {
+    filter: drop-shadow(0 0 0.30rem rgb(113, 113, 113));
+}
 .nav-link {
     color: #554444;
     text-decoration: none;
@@ -116,4 +119,58 @@ header{
 }
 #symptoms-source.source-info-list{
     text-align: left;
+}
+
+/* Contact page styling */
+
+.contact-section {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image-container {
+    width: 300px;
+    height: 300px;
+    border: 2px solid #222200;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.image-container img {
+    width: 300px;
+    height: auto;
+    transform: translate(5%, -5%);
+}
+
+/* Contact form */
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 570px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.form-container input {
+    width: 520px;
+    height: 25px;
+    background-color: rgb(236, 236, 236);
+    border: none;
+    box-sizing: border-box;
+    padding: 6px;
+}
+
+.form-container textarea{
+    margin-top: 7px;
+    width: 520px;
+    background-color: rgb(236, 236, 236);
+    border: none;
+    box-sizing: border-box;
+    padding: 6px;
+}
+
+.form-container div > input {
+    background-color: #222200;
+    color: white;
 }
