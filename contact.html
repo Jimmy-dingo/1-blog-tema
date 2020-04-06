@@ -8,7 +8,7 @@
     <meta name="keywords" content="html, css, blog, webpage, exercise"/>
     <meta name="author" content="Gianmarco Procida"/> 
     <link rel="icon" type="image/ico" href="assets/images/gianmarco-blog-icon.png">
-    <link rel="stylesheet" type="text/css" href="gianmarco-blog-style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   
   <body>
@@ -25,24 +25,45 @@
       </header>
 
       <section class="contact-section">
-        <h1>Let's keep in contact!</h1>
-        <div class="image-container"><img src="assets/images/call-me-baby.JPG" alt="Call me baby"></div>
-        
-        <div class="form-container">
+        <header class="header-contact">
+          <h1>Contact us</h1>
+          <p>Feel free to contact us</p>
+        </header>
+
+        <section class="contacts">
           <form action="#" name="contact_form">
-            <input name="first_name" type="text" required placeholder="Your first name"/>
-            <br>
-            <input name="last_name" type="text" required placeholder="Your last name"/>
-            <br>
-            <input name="email" type="email" required placeholder="Your email address"/>
-            <br>
-            <textarea name="message" cols="30" rows="10" placeholder="Enter your message here ..." required></textarea>
-            <div class="contact-center">
-              <input type="submit" value="Submit">
-            </div>
+            <section class="left">
+              <label for="first_name">Name</label><br>
+              <input name="first_name" type="text" required placeholder="Enter name"/>
+              <br>
+
+              <label for="email">Email</label><br>
+              <input name="email" type="email" required placeholder="Enter email"/>
+              <br>
+
+              <label for="subject">Subject</label><br>
+              <input name="subject" type="text" required placeholder="Enter subject"/>
+              <br>
+            </section>
+
+            <section class="right">
+              <label for="message">Message</label><br>
+              <textarea name="message" cols="42" rows="10" placeholder="Enter your message here ..." required> </textarea>
+              
+              <input type="submit" value="Send Message">
+            </section>
+
           </form>	
-        </div>
+        </section>
+        <section class="social">
+          <h2>Or find us on social media</h2>
+          <hr>
+          <ul>
+            <li><a href="https://www.facebook.com/jimmy.procida" target="_blank">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+          </ul>
+        </section>
       </section>
-    </div>
   </body>
 </html>
